@@ -1,0 +1,66 @@
+\documentclass[a4paper,11pt,stu,donotrepeattitle,
+    % hyperref options go here
+    colorlinks=true,          % I want to colour all my links
+    linkcolor=red,            % I want cross-references to be in red
+    anchorcolor=black,        % Keep anchors blackvar.names[which(var.names$Source=="QQQ_student")][,2]
+    citecolor=blue,           % In-text-referencing is in blue
+    urlcolor=blue,            % DOIs and URLs are in blue
+    bookmarks=true,           % Generate bookmarks for PDF readers
+    bookmarksopen=false,      % Expand all bookmarks as default
+    bookmarksnumbered=true,   % Keep section number in bookmarks
+    % APA Rule 2.22: Margins
+    % geometry options go here
+    margin=1in
+]{apa7}
+
+% Hanging indent for full citation appearing in the middle of the paper
+\usepackage{hanging}
+
+% APA7 Rule 2.23: Paragraph Alignment
+\usepackage[document]{ragged2e}
+
+% % APA7 Rule 2.24: Paragraph Indentation
+\setlength\parindent{0.5in}
+\setlength{\RaggedRightParindent}{\parindent}
+
+% Avoid breaking a word into two lines
+\usepackage[none]{hyphenat}
+
+% To set double spacing
+\usepackage{setspace}
+
+% Generate a reference list using BibLaTeX
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\addbibresource{Master.bib}
+
+% Always load cleveref last last
+\usepackage[nameinlink,noabbrev,capitalise]{cleveref}
+
+\title{Critique Papers on Causal Inferences}
+\author{Tony Tan}
+\affiliation{Centre for Educational Measurement, University of Oslo}
+\course{MAE4051: Selected Topics in Educational Measurement}
+\professor{Prof Jan-Eric Gustafsson}
+\duedate{9 April 2021}
+
+\begin{document}
+\maketitle
+
+\doublespacing
+
+% \input{./Topics/1 Disc.tex}
+% \newpage
+
+\input{./Topics/2 IV.tex}
+\newpage
+
+\input{./Topics/3 FE.tex}
+\newpage
+
+\input{./Topics/4 Prop.tex}
+
+% Reference list on a new page
+\newpage
+\printbibliography[title=References]
+
+\end{document}
