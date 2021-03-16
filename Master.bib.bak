@@ -27,9 +27,28 @@
   journal = {Psychological Science},
   number  = {6},
   pages   = {920--928},
-  title   = {Would you be happier living in a greener urban area? A fixed-effects analysis of panel data},
+  title   = {Would you be happier living in a greener urban area? {A} fixed-effects analysis of panel data},
   volume  = {24},
   year    = {2013},
+}
+
+@Book{campbell:1963,
+  author    = {Campbell, D. T. and Stanley, J. C.},
+  publisher = {Rand McNally},
+  title     = {Experimental and quasi-experimental designs for research},
+  year      = {1963},
+}
+
+@Book{cook:1979,
+  author    = {Cook, T. D. and Campbell, D. T.},
+  publisher = {Rand McNally},
+  title     = {Quasi-experimentation: Design and analysis issues for field settings},
+  year      = {1979},
+}
+
+@Book{,
+  author    = {William R. Shadish and Thomas D. Cook and Donald T. Campbell},
+  publisher = {Wadsworth Cengage Learning},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -19,6 +19,74 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{campbell:1963}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e591c1032077013e1f6a4843cc893136}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60e1e9bb3f3cf12e64f90c4f4302a038}{%
+           family={Stanley},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Rand McNally}%
+      }
+      \strng{namehash}{2b411fa58bba7a43f229e8f137e57788}
+      \strng{fullhash}{2b411fa58bba7a43f229e8f137e57788}
+      \strng{bibnamehash}{2b411fa58bba7a43f229e8f137e57788}
+      \strng{authorbibnamehash}{2b411fa58bba7a43f229e8f137e57788}
+      \strng{authornamehash}{2b411fa58bba7a43f229e8f137e57788}
+      \strng{authorfullhash}{2b411fa58bba7a43f229e8f137e57788}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Experimental and quasi-experimental designs for research}
+      \field{year}{1963}
+    \endentry
+    \entry{cook:1979}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=40837e7d090e8c26a1053be4fce381f4}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e591c1032077013e1f6a4843cc893136}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Rand McNally}%
+      }
+      \strng{namehash}{b9a7dad8679fc4c38e2938cc26b0e180}
+      \strng{fullhash}{b9a7dad8679fc4c38e2938cc26b0e180}
+      \strng{bibnamehash}{b9a7dad8679fc4c38e2938cc26b0e180}
+      \strng{authorbibnamehash}{b9a7dad8679fc4c38e2938cc26b0e180}
+      \strng{authornamehash}{b9a7dad8679fc4c38e2938cc26b0e180}
+      \strng{authorfullhash}{b9a7dad8679fc4c38e2938cc26b0e180}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quasi-experimentation: Design and analysis issues for field settings}
+      \field{year}{1979}
+    \endentry
     \entry{hanandita:2014}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=27377f8875806fabe7d95f7454bc820f}{%
@@ -56,6 +124,46 @@
       \verb{doi}
       \verb 10.1016/j.socscimed.2014.05.005
       \endverb
+    \endentry
+    \entry{shadish:2002}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5c0aede1fa41448c6a47e94e90e7eb28}{%
+           family={Shadish},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima R.},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c3b6570b33da06e2a70a230e8c9114c}{%
+           family={Cook},
+           familyi={C\bibinitperiod},
+           given={Thomas\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b82d4be5d69907887d37ff8d9a6a1656}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Donald\bibnamedelima T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wadsworth Cengage Learning}%
+      }
+      \strng{namehash}{9406b42c7badb00f6f7361f67e00dd71}
+      \strng{fullhash}{670ad8157840ad7dbc7e7546498a592d}
+      \strng{bibnamehash}{670ad8157840ad7dbc7e7546498a592d}
+      \strng{authorbibnamehash}{670ad8157840ad7dbc7e7546498a592d}
+      \strng{authornamehash}{9406b42c7badb00f6f7361f67e00dd71}
+      \strng{authorfullhash}{670ad8157840ad7dbc7e7546498a592d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Experimental and quasi-experimental designs for generalized causal inference}
+      \field{year}{2002}
     \endentry
     \entry{sullivan:2013}{article}{}
       \name{author}{2}{}{%

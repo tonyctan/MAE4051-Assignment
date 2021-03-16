@@ -2820,6 +2820,20 @@
     <bcf:citekey order="7">sullivan:2013</bcf:citekey>
     <bcf:citekey order="8">sullivan:2013</bcf:citekey>
     <bcf:citekey order="9">sullivan:2013</bcf:citekey>
+    <bcf:citekey order="10">campbell:1963</bcf:citekey>
+    <bcf:citekey order="11">cook:1979</bcf:citekey>
+    <bcf:citekey order="12">cook:1979</bcf:citekey>
+    <bcf:citekey order="13">shadish:2002</bcf:citekey>
+    <bcf:citekey order="14">shadish:2002</bcf:citekey>
+    <bcf:citekey order="15">shadish:2002</bcf:citekey>
+    <bcf:citekey order="16">sullivan:2013</bcf:citekey>
+    <bcf:citekey order="17">sullivan:2013</bcf:citekey>
+    <bcf:citekey order="18">shadish:2002</bcf:citekey>
+    <bcf:citekey order="19">shadish:2002</bcf:citekey>
+    <bcf:citekey order="20">sullivan:2013</bcf:citekey>
+    <bcf:citekey order="21">sullivan:2013</bcf:citekey>
+    <bcf:citekey order="22">cook:1979</bcf:citekey>
+    <bcf:citekey order="23">cook:1979</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.13)  15 MAR 2021 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.13)  16 MAR 2021 21:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1243,32 +1243,34 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 6.
 ) [2]
-(./Topics/3 FE.tex) [3] (./Topics/4 Prop.tex) [4] [5]
-AED endfloat: Processing end Figures and Tables [6
+(./Topics/3 FE.tex) [3] (./Topics/4 Prop.tex [4] [5]) [6]
+AED endfloat: Processing end Figures and Tables [7
 
 ] (./Master.aux)
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 906D4CAD7C5307652C8350864D5AC56A;3659.
+(rerunfilecheck)             Checksum: B971B9B21025A49EB6D29A1F08311BF1;3585.
 Package logreq Info: Writing requests to 'Master.run.xml'.
 \openout1 = `Master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31474 strings out of 479022
- 599925 string characters out of 5859386
- 1364112 words of memory out of 5000000
- 48414 multiletter control sequences out of 15000+600000
+ 31495 strings out of 479022
+ 600379 string characters out of 5859386
+ 1365311 words of memory out of 5000000
+ 48432 multiletter control sequences out of 15000+600000
  435801 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,103p,1670b,4823s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
-texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-di
-st/fonts/type1/public/lm/lmri10.pfb>
-Output written on Master.pdf (6 pages, 91147 bytes).
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+cal/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/20
+20/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/
+type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/lm/lmri10.pfb>
+Output written on Master.pdf (7 pages, 99267 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 229 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
