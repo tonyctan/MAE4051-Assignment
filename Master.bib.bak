@@ -46,9 +46,29 @@
   year      = {1979},
 }
 
-@Book{,
+@Book{shadish:2002,
   author    = {William R. Shadish and Thomas D. Cook and Donald T. Campbell},
   publisher = {Wadsworth Cengage Learning},
+  title     = {Experimental and quasi-experimental designs for generalized causal inference},
+  year      = {2002},
+}
+
+@Article{imbens:2015a,
+  author  = {Guido W. Imbens},
+  doi     = {10.3368/jhr.50.2.373},
+  journal = {Journal of Human Resources},
+  number  = {2},
+  pages   = {373--419},
+  title   = {Matching methods in practice: Three examples},
+  volume  = {50},
+  year    = {2015},
+}
+
+@Book{imbens:2015b,
+  author    = {Guido W. Imbens and Donald B. Rubin},
+  publisher = {Cambridge University Press},
+  title     = {Causal inference in statistics, social, and biomedical sciences},
+  year      = {2015},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
