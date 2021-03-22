@@ -40,8 +40,12 @@ By \textcite{cook:1979}, statistical conclusion validity refers to the appropria
 \section{Appropriateness of Methods}
 %//mark Discussion of the extent to which the causal question has been appropriately answered by the study
 
-\textcite{sullivan:2013} largely followed the propensity score matching procedure prescribed by \textcite{imbens:2015b} and \textcite{imbens:2015a} in assessing causal effects. At the first stage: design, the authors established sufficient overlapping by discarding some units from the original sample in order to establish the region of common support; the second stage: supplementary analysis, however, appeared to be lacking in \textcite{sullivan:2013} where the plausibility of unconfoundedness shall be further addressed through pseudo-average treatment effect on the pseudo-outcome for trimmed sample \parencite[see][pp. 383--384]{imbens:2015a}; such absence would cast doubt on any result in the third stage: analysis over the source of average treatment effect
+\textcite{sullivan:2013} largely followed the propensity score anlysis procedure prescribed by \textcite{imbens:2015b} and \textcite{imbens:2015a} in assessing causal effects. At the first stage \textsc{design}, the authors established sufficient overlapping by discarding some units from the original sample in order to establish the region of common support; the second stage \textsc{supplementary analysis}, however, appeared to be lacking in \textcite{sullivan:2013} where the plausibility of unconfoundedness shall be further addressed through pseudo-average treatment effect on the pseudo-outcome for trimmed sample \parencite[see][pp. 383--384]{imbens:2015a}; such absence would cast doubt on any result in the third stage \textsc{analysis} over the source of average treatment effect.
 
+One highlight on methodology is the Bayesian approach to AAT sampling weights. \textcite{sullivan:2013} correctly pointed out the ``curse of dimensionality'' when computing
+$w_i$ for $D_i = 0$ cases and provided sufficient derivation through Bayes formula in reaching the form
+\[ w_i = \frac{\p{ D=1 | z_i}}{1-\p{ D=1 | z_i}} \cdot \frac{\p{D=0}}{\p{D=1}},\ \text{for}\ D_i=0. \]
+The authors, however, stayed short of advocating for a wider adoption of this approach to resampling weights but gave in to conventional literature in order to maximise comparability. This weighting formula overcome the peculiarity of the conventional scheme (only the first term in the formula above) summing to twice the size of the treated subsample and provided a more intuitive formation of summing to the sample size. Stronger advocacy can be expected from continuing research in popularising \poscite{sullivan:2013} weighting formulation.
 \section{Conclusion}
 %//mark Conclusion
 

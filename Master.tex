@@ -13,6 +13,9 @@
     margin=1in
 ]{apa7}
 
+\usepackage{amsmath,amssymb}
+\newcommand{\p}[1]{\mathbb{P}\left(#1\right)}
+
 % Hanging indent for full citation appearing in the middle of the paper
 \usepackage{hanging}
 
@@ -32,6 +35,8 @@
 % Generate a reference list using BibLaTeX
 \usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
 \addbibresource{Master.bib}
+% Citation in possesive:
+\newcommand{\poscite}[1]{\citeauthor{#1}'s (\citeyear{#1})}
 
 % Always load cleveref last last
 \usepackage[nameinlink,noabbrev,capitalise]{cleveref}
