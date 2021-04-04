@@ -9,38 +9,40 @@
 \section{Summary}
 %//mark Summary of the article
 
-\textcite{white:2013}
+\textcite{white:2013} attempted to examine the causal relationship between green space and individuals' happiness using STATA's panel data analysis tool. By regressing self-reported mental health levels and life satisfaction scores on green space along with other regional- and individual-level control variables, the authors reported a small but statistically significant effect greenery plays in improving residents' happiness and used these statistics as evidence to further their advocacy for including more green space in urban design.
 
 \section{Causal Question}
 %//mark Identification of the causal question investigated in the study
 
-Should I pretend to do econometrics while I have no idea what I am doing?
+``[W]hether the same people would be happier (i.e., show higher well-bing and lower mental distress) when living in areas with more green space than in ares with less green space.'' (p. 921)
 
 \section{Validity}
 %//mark Discussion of validity aspects of the study: statistical conclusion validity, internal validity, construct validity, and external validity
 
-\subsection{Construct Validity}
+\subsection{Statistical Conclusion Validity}
 
-Living next to green space consists of two constructs: 1. willingness to live in a green area and 2. ability to live in a green area. Assuming people are either indifferent or universally attracted to green space, what this paper picked up is actually the ability to live there, i.e., ability to afford mortgage or rent. In real estate: location location location, so the authors were not actually measuring green, but wealth.
+The statistical conclusion validity asks whether the presumed cause and effect covary and how strongly they do so. Table 2 of \textcite[][p. 925]{white:2013} documented the regression coefficients (both unstandardised $b$ and standardised $\beta$) of their fixed-effect analyses. It is first of all worth noticing that the magnitude of $\beta$ for \texttt{Green space} is small albeit statistically significant---a \emph{prima facie} evidence of a weak marginal effect attributable purely to green space. Such weak relationship between greenery and individual happiness has been further shadowed by individual character variables such as marital status (over 3 times stronger for both General Health Questionnaire (GHQ) and Life Satisfaction Survey (LSS) measures) and unemployment (5 and 2.5 times stronger in the opposite direction for GHQ and LSS respectively). Most other variables failed to reach statistical significance for both GHQ and LSS outcomes. This inconvenient fact exposed the weak statistical conclusion validity of the current study: the key variable of advocacy \texttt{Green space} barely made into the winning list and remain as the least competitive explanatory variable.
+
+This low statistical power validity is further threatened by violations of statistical assumptions. Input variables chosen by the authors, such as income, employment, education, and crime at LSOA-level and education, household income, employment status at individual-level, formed strong multicollinearity with each other since they all reflect the socioeconomic status of the research subjects; when one variable moves, other variables tend to follow closely, defeating the \emph{ceteris paribus} interpretation. A second major violation is on the random sampling assumption: this study could essentially be framed as a multilevel model where instances of samplings were nested in individuals and individuals were nested in LSOA-levels. Even by discarding the repeated measure layer (by degrading a longitudinal study into a cross-sectional design), the authors paid no consideration to the clustering nature of individuals nested in LSOA areas, inflating any subsequent analyses. Given the already small $\beta$ reported for \texttt{Green space}, one must wonder whether such effect would survive a clustering correction.
 
 \subsection{Internal Validity}
 
-Both being able to live in green areas and happiness are the outcome of the confounding variable income/wealth.
+The internal validity asks whether the observed covariation between, green space ($A$) and happiness ($B$) in this study, is indeed a causal one by testing whether $A$ preceded $B$ in time, $A$ covaries with $B$ (only barely, if at all, as reasoned in the previous paragraphs) and no other explanations for the relationship could be plausible. Ambiguous temporal precedence came to play particularly strongly to this paper. A declaration that ``sad people moving to green space, then \emph{because of and only because of} this green, they transformed themselves into happier ones'' attracts onerous burden of proof, where the authors made minimum effort to fulfil. The authors further failed to rule out ``happy people self-select into moving to greener spaces'' as a plausible possibility; or thirdly, another variable (e.g., SES) contributed to both individuals' happiness and their propensity to reside near green areas. In summary, \textcite{white:2013} made least effort in addressing their internal validity at all.
+
+\subsection{Construct Validity}
+
+The construct validity concerns the agreement between the study operations and the constructs used to describe those operations. \textcite{white:2013} followed up people's decision on, or the lack thereof, moving into greener living spaces without realising that this variable consists of two sub-constructs: both the \emph{willingness} and \emph{ability} to relocate next to greenery. Assuming the general population to be either indifferent or positive towards green space (a reasonable assumption in industrialised economies such as England used in this study but probably less so in impoverished jungles where locals are more eager to trade trees for economic prosperity), what \textcite{white:2013} picked up was mainly the second sub-construct, the ability to relocate to greener space. In a world where housing prices are dictated by the golden rule of real estate ``Location, location, location!'', the author's operation ``proximity to green'' had metamorphosed to a measure of wealth, which then quickly formed multicollinearity with other SES variables described in the ``statistical conclusion validity'' section. Ultimately, the author mixed the construct of ``a green space'' with ``(being able to) live in a green space'' by stealth and produced a bunch of statistics that measured neither one nor the other.
 
 \subsection{External Validity}
 
-1 standard deviation is a huge difference. beta estimates are marginal effect, meaning at the tangent point, a little bit to the left, a little bit to the right, you can expect this much increase or decrease. This linear approximation gets lousier the farther away you move from the tangent line. 1 SD is half a world away and none the estimates can be used for such discrete changes.
-
-\subsection{Statistical Conclusion Validity}
-
-Control vars are high correlated. Coefficients do not have cetaris paribus interpretation
+The external validity examines inferences about the extent to which a causal relationship withstands tests across various settings. As green space is scarce in industrialised England but relatively abundant in neighbouring Scotland---such change in scarcity could swiftly eliminate any reported causal effect between green living and happiness. Finally, since the marginal effects discovered by \textcite{white:2013} were so small, the authors switched to the ``one standard deviation above/below'' interpretation without realising that individuals sitting 1 $SD$ apart in a standardised model share very few similarities any longer. The $\beta$ coefficients only serve the \emph{marginal} effect interpretation at and around the tangent point where linear approximation would be appropriate. Extrapolating these neighbourhood estimations to 1 $SD$ away can only be applied at the authors' own risks.
 
 \section{Appropriateness of Methods}
 %//mark Discussion of the extent to which the causal question has been appropriately answered by the study
 
-You can throw whatever into STATA and get some output, but having a bunch of numbers in itself does not buy you legitimacy. You used STATA's panel data functionality but didn't actually run a panel analysis.
+It remained opaque why the authors started with a longitudinal design and at some unspecified point regressed to a cross-sectional study. The promised advantages of panel data, such as controlling for autocorrelation and heteroscedasticity, were as a result unrealised in full. As previously discussed in the ``statistical conclusion validity'' section, a multilevel modelling approach would be better suited to address the nesting nature, i.e., non-random sampling, of the dataset. \textcite{white:2013} attempted to drive the heavy vehicle of panel data analysis and abandoned the apparatus in the middle of the field while a more appropriate methodological instrument was never considered.
 
 \section{Conclusion}
 %//mark Conclusion
 
-This paper should get burnt at the review stage. Even the author themselves admitted this paper cannot prove causal. What a waste of time and trees.
+\textcite{white:2013} crumbles in front of validity examinations. In fact, the author's hesitation over the validity of their study was marked by their repeated use of ``may be'', ``could be'' or ``perhaps'' over 25 times over a six-page paper excluding statistical tables, with a final confession ``Causality cannot thus be assumed.'' (p. 927). The study design was ambitious to start with but quickly went off the boil, delivering a set of weak and non-results that inspired neither methodology nor policy formation. It mixed two constructs, green spaces and the ability to live next to green spaces, by stealth and failed to acknowledge the key role SES has been playing throughout their study as confound. They violated a myriad of statistical assumptions in their analyses and made large distance extrapolations using software outputs that were only supposed to be interpreted locally. No policy decision, as a result, should ever be carried out based on this paper, not even in England where the data were sourced, let alone any other jurisdictions.
